@@ -7,9 +7,8 @@
 # or all the values in bottoms are the same.
 #
 # If it cannot be done, return -1.
-import copy
+
 from typing import List
-from collections import Counter
 
 
 class Solution:
