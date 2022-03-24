@@ -18,10 +18,9 @@ class Solution:
         return ans + start_value - target
 
 
-
 if __name__ == '__main__':
-    assert Solution.broken_calc(start_value=2, target=3) == 2 # 2 * 2 = 4; 4 - 3 = 1
-    assert Solution.broken_calc(start_value=5, target=8) == 2 # 5 - 1 = 4; 4 * 2 = 8
-    assert Solution.broken_calc(start_value=3, target=10) == 3 # 3 * 2 = 6; 6 - 1 = 5; 5 - 1 = 4; 4 * 2 = 8
+    assert Solution.broken_calc(start_value=2, target=3) == 2  # 2 * 2 = 4; 4 - 3 = 1
+    assert Solution.broken_calc(start_value=5, target=8) == 2  # 5 - 1 = 4; 4 * 2 = 8
+    assert Solution.broken_calc(start_value=3, target=10) == 3  # 3 * 2 = 6; 6 - 1 = 5; 5 - 1 = 4; 4 * 2 = 8
     assert Solution.broken_calc(start_value=1024, target=1) == 1023
     assert Solution.broken_calc(start_value=1, target=1000000000) == 39
